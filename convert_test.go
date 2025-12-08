@@ -3,12 +3,12 @@ package json2yaml_test
 import (
 	"bytes"
 	_ "embed"
+	"encoding/json/jsontext"
 	"errors"
 	"io"
 	"testing"
 
 	"github.com/MarkRosemaker/json2yaml"
-	"github.com/go-json-experiment/json/jsontext"
 	"gopkg.in/yaml.v3"
 )
 
